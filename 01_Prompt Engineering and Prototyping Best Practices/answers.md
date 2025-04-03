@@ -107,7 +107,7 @@ Please make adjustments to your application that you believe will improve the vi
 - Aspect Tested: **Accuracy: Excellent**. The information provided by the model is correct.
 - Aspect Tested: **Relevance: Excellent**. The information provided by the model is on topic.
 - Aspect Tested: **Clarity: Excellent**. The information provided by the model is easy to understand and it is outlined clearly.
-- Aspect Tested: **Conciseness: Good**. The explanation provided by the model is longer. It offers more examples, but each one is concise.
+- Aspect Tested: **Conciseness: Failed**. The explanation provided by the model is too long and gets cut off.
 - Aspect Tested: **Coherency: Excellent**. The explanation provided by the model is logical and well-structured.
 
 ### 2. Read the following paragraph and provide a concise summary of the key points…
