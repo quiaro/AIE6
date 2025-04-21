@@ -122,7 +122,7 @@ Please write what is happening in our `tool_call_or_helpful` function!
 
 Please see the previous answer ☝️
 
-Next, a conditional edge is created that connects the `agent` node with three nodes: 1) itself (the `agent` node) 2) the `action` node, responsible for making tool calls and 3) the END node, where the graph's flow ends.
+Next, a conditional edge is created using the `tool_call_or_helpful` function which connects the `agent` node with three nodes: 1) itself (the `agent` node) 2) the `action` node, responsible for making tool calls and 3) the END node, where the graph's flow ends.
 
 ```
 graph_with_helpfulness_check.add_conditional_edges(
@@ -148,7 +148,7 @@ Next, the state graph is turned into a compiled graph, which implements the Runn
 agent_with_helpfulness_check = graph_with_helpfulness_check.compile()
 ```
 
-Finally, the resulting compiled graph is run asynchronously and updates returned by the nodes or the tasks are printed as they are completed.
+Finally, the resulting compiled graph is run asynchronously. Updates returned by the nodes or the tasks are printed as they are completed.
 
 ```
 inputs = {"messages" : [HumanMessage(content="Related to machine learning, what is LoRA? Also, who is Tim Dettmers? Also, what is Attention?")]}
