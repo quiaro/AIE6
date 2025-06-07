@@ -1,0 +1,6 @@
+1. Introduction to the breakthrough in AI
+2. Overview of Llama-3’s context extension
+3. Details on the methodology used (QLoRA and training process)
+4. Implications of the research for natural language understanding
+5. Acknowledgment of the research team's efforts
+6. Invitation to read the full paper
